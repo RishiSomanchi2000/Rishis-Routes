@@ -1,0 +1,4 @@
+{
+  current_location: @trip.current_location,
+  destination: @trip.destination
+}
