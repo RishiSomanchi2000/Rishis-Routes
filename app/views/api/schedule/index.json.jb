@@ -1,5 +1,16 @@
 {
   steps: @steps,
   total_time: @total_time,
-  total_distance: @total_distance
+  total_distance: @total_distance,
+  destination_lat: @destination_lat,
+  destination_long: @destination_long,
+  description: @description,
+  temp_in_fahrenheit: @temp,
+  humidity: @humidity,
+  windspeed: @windspeed,
+  names: @names,
+  images: @images,
+  rating: @rating,
+  phone: @phone
 }
+

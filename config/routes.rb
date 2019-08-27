@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   #   get "/photos" => "photos#index"
     get 'directions' => 'schedule#google_maps'
     get 'onebusaway' => 'schedule#onebusaway'
+    get 'yelp' => 'schedule#yelp'
+    get 'weather' => 'schedule#weather'
     post 'directions' => 'schedule#create'
     post 'specialdirections' => 'schedule#specialcreate'
   end
