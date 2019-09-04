@@ -1,1 +1,8 @@
-@yelp
+{
+  address: @address,
+  names: @names,
+  images: @images,
+  rating: @rating,
+  phone: @phone
+
+}

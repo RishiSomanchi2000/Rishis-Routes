@@ -1,5 +1,4 @@
 {
-  weather: @weather,
   description: @description,
   temp_in_fahrenheit: @temp,
   humidity: @humidity,
