@@ -194,7 +194,7 @@ class Api::ScheduleController < ApplicationController
       #   last = temp_last.length - 1
       #   @final_direction = directions["routes"][0]["legs"][0]["steps"][index]["html_instructions"][start, last]
       # end
-      @steps << "#{count}. #{directions["routes"][0]["legs"][0]["steps"][index]["html_instructions"]}".remove("<b>", "</b>", "<div style=\"font-size:0.9em\">", "</div>", "Restricted usage road", "Destination will be on the right", "Destination will be on the left")
+      @steps << "#{count}. #{directions["routes"][0]["legs"][0]["steps"][index]["html_instructions"]}".remove("<b>", "</b>", "<div style=\"font-size:0.9em\">", "</div>", "Restricted usage road", "Destination will be on the right", "Destination will be on the left", "/<wbr/>")
       @distance << directions['routes'][0]['legs'][0]['steps'][index]['distance']['text']
       @duration << directions['routes'][0]['legs'][0]['steps'][index]['duration']['text']
       index = index + 1
